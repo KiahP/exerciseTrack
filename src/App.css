@@ -22,7 +22,7 @@ body {
 
 .container {
   background-image: linear-gradient(to right, rgba(175, 175, 175, 0.657), rgba(102, 102, 102, 0.794));
-  height: 80vh;
+  height: 100vh;
   margin-bottom: 4rem;
   
 

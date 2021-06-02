@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color:000000; 
+  --secondary-color:FFFFFC;
+  --tertiary-color:BEB7A4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+* {
+  margin: 0;
+  padding: 0; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  html {
+    font-size: 62.5%;
+    background-color: var(--tertiary-color);
   }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(img/gym1.jpg);
+  background-size:cover;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  background-image: linear-gradient(to right, rgba(175, 175, 175, 0.657), rgba(102, 102, 102, 0.794));
+  height: 80vh;
+  margin-bottom: 4rem;
+  
+
+}
+
+
+
+
+
+/* nav bar styling */
+.navbar {
+  background-color:transparent;
+  width: 100%;
+  height: 10vh;
+  margin-top: 2rem;
+
+}
+
+.nav-mi {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  font-size: 3.2rem;
+ 
+}
+
+.navbar-brand{
+  font-size: 4.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+
+.navbar-nav {
+  display: flex;
+
+}
+
+
+.navbar-item{
+  color:var(--secondary-color);
+  border-bottom: 2px solid black;
+  border-right: 1px solid black;
+
+}
+
+.nav-link {
+  color: var(--secondary-color);
+
+}
+
+
+h3 {
+  font-size: 7rem;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  border-bottom: 2.5px solid black;
+}
+
+
+.big-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.big-img2 {
+  width:50rem;
+  margin-left: 5rem;
+  border-radius: 2rem;
+
+}
+
+/* .form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+} */
+
+.form-group {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-left: 25rem;
+  font-size: 2rem;
+  /* border: 5px solid red; */
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+  font-size: 2.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-control {
+  height: 4rem;
+  font-size: 2.5rem;
+ 
 }
+
+.btn {
+  height: 5rem;
+  background-color: black;
+  color:white;
+  font-size: 2.8rem;
+  
+}
+
+.DatePicker {
+  height: 4rem;
+  font-size: 2.5rem;
+
+}
+

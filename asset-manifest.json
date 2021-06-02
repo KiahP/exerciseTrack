@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/exerciseTrack/static/css/main.9b3e9d15.chunk.css",
+    "main.css": "/exerciseTrack/static/css/main.14e7d55c.chunk.css",
     "main.js": "/exerciseTrack/static/js/main.94be0817.chunk.js",
     "main.js.map": "/exerciseTrack/static/js/main.94be0817.chunk.js.map",
     "runtime-main.js": "/exerciseTrack/static/js/runtime-main.74c24c5b.js",
@@ -12,7 +12,7 @@
     "static/js/3.7c58d6e5.chunk.js.map": "/exerciseTrack/static/js/3.7c58d6e5.chunk.js.map",
     "index.html": "/exerciseTrack/index.html",
     "static/css/2.0306ea3a.chunk.css.map": "/exerciseTrack/static/css/2.0306ea3a.chunk.css.map",
-    "static/css/main.9b3e9d15.chunk.css.map": "/exerciseTrack/static/css/main.9b3e9d15.chunk.css.map",
+    "static/css/main.14e7d55c.chunk.css.map": "/exerciseTrack/static/css/main.14e7d55c.chunk.css.map",
     "static/js/2.162c278c.chunk.js.LICENSE.txt": "/exerciseTrack/static/js/2.162c278c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/exerciseTrack/static/media/gym1.5c8c0afb.jpg",
     "static/media/gym2.3f4783a4.jpg": "/exerciseTrack/static/media/gym2.3f4783a4.jpg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.74c24c5b.js",
     "static/css/2.0306ea3a.chunk.css",
     "static/js/2.162c278c.chunk.js",
-    "static/css/main.9b3e9d15.chunk.css",
+    "static/css/main.14e7d55c.chunk.css",
     "static/js/main.94be0817.chunk.js"
   ]
 }
